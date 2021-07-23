@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Bidding</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <button class="menuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style>.a{fill:none;}.b{fill:#fff;}</style></defs><rect class="a" width="24" height="24"/><path style="stroke-width:1.5px;" class="b" d="M8.75,13.5a.75.75,0,0,1,0-1.5h10.5a.75.75,0,0,1,0,1.5Zm-8-6A.75.75,0,0,1,.75,6h18.5a.75.75,0,0,1,0,1.5Zm0-6A.75.75,0,0,1,.75,0h10.5a.75.75,0,0,1,0,1.5Z" transform="translate(2 5)"/></svg>
+            </button>
+        </a>
+        <img class="logo" src="wheez-logo-white.png" />
+        <div>
+            <a href="#">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><defs><style>.c1{fill:none;}.d{fill:#fff;}</style></defs><path class="c1" d="M0,0H26V26H0Z"/><path class="d" d="M12.667,23.625a2.173,2.173,0,0,0,2.167-2.167H10.5A2.173,2.173,0,0,0,12.667,23.625Zm6.5-6.5V11.708c0-3.326-1.766-6.11-4.875-6.847V4.125a1.625,1.625,0,0,0-3.25,0v.737c-3.1.737-4.875,3.51-4.875,6.847v5.417L4,19.292v1.083H21.333V19.292ZM17,18.208H8.333v-6.5c0-2.687,1.636-4.875,4.333-4.875S17,9.022,17,11.708Z" transform="translate(0.333 0.208)"/></svg>
+                </button>
+            </a>
+            <a href="#">
+                <button class="userBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><defs><style>.a{fill:#fff;opacity:0;}.b{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="a" width="25" height="25"/><g transform="translate(4.385 3.377)"><path style="stroke-width:2px; fill: white;" class="b" d="M21.54,21.416V19.278A4.332,4.332,0,0,0,17.155,15H8.385A4.332,4.332,0,0,0,4,19.278v2.139" transform="translate(-4 -2.336)"/><ellipse style="stroke-width:2px; fill:white;" class="b" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(3.615 -0.377)"/></g></svg>
+                </button>
+            </a>
+        </div>
+       
+    </nav>
+    <section class="practiceBidding">
+        <div class="heading">
+            Practice Bid
+        </div>
+        <div class="expandedMenu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM10 18C10 16.9 10.9 16 12 16C13.1 16 14 16.9 14 18C14 19.1 13.1 20 12 20C10.9 20 10 19.1 10 18Z" fill="#A5B0FF"/>
+            </svg>
+        </div>
+        <div class="timerBarContainer">
+            <div class="timerBar">
+                <div class="left">
+                    <div class="metricsContainer">
+                        <span class="text">Online</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 13L17.17 13L13.59 16.59L15 18L21 12L15 6L13.59 7.41L17.17 11L3 11L3 13Z" fill="#4B4374"/>
+                        </svg>
+                        <span class="value">5 people</span>
+                    </div>
+                    <div class="planDropdown">
+                        <span>$10000 for <br>10 months</span>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.3688 5.18436L7.5 8.04686L4.63125 5.18436L3.75 6.06561L7.5 9.81561L11.25 6.06561L10.3688 5.18436Z" fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+               
+                <div class="timer">
+                    <div id="app">
+    
+                    </div>
+    
+                </div>
+                <div class="right">
+                    <div class="metricsContainer">
+                        <span class="text">PTAP</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 13L17.17 13L13.59 16.59L15 18L21 12L15 6L13.59 7.41L17.17 11L3 11L3 13Z" fill="#4B4374"/>
+                        </svg>
+                        <span class="value">$4000</span>
+                    </div>
+                    <div class="planDropdown dropRight">
+                        <span style="margin-left: 10px; font-size: 16px;">1st Bid</span>
+                        <svg width="15" height="15" style="margin-right: 10px;" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.3688 5.18436L7.5 8.04686L4.63125 5.18436L3.75 6.06561L7.5 9.81561L11.25 6.06561L10.3688 5.18436Z" fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="bidThreadsContainer">
+            <div class="bidThread bidThreadLeft">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+            <div class="bidThread bidThreadRight">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+            <div class="bidThread bidThreadRight">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+            <div class="bidThread bidThreadRight">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+            <div class="bidThread bidThreadRight">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+            <div class="bidThread bidThreadRight">
+                <span class="userIcon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><defs><style>.a1{opacity:0.44;}.b1{fill:#fff;opacity:0;}.c2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><g class="a1"><rect class="b1" width="19" height="19"/><g transform="translate(3.333 2.28)"><path class="c2" d="M17.331,19.876V18.251A3.293,3.293,0,0,0,14,15H7.333A3.293,3.293,0,0,0,4,18.251v1.625" transform="translate(-4 -5.089)"/><ellipse class="c2" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(2.667 -0.28)"/></g></g></svg>
+                </span>
+                <div class="threadContainer">
+                    <div class="value" >$300</div>
+                    <div class="bidText">uzu placed the bid at value $8700</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bidValueSection">
+        <div class="bidValueRow">
+            <span class="lockButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><defs><style>.a,.b{fill:none;}.b{opacity:0.87;}.c{fill:#919191;}</style></defs><path class="a" d="M0,0H21V21H0Z"/><path class="b" d="M0,0H21V21H0Z"/><path class="c" d="M16.25,7.125h-.875V5.375a4.375,4.375,0,0,0-8.75,0v1.75H5.75A1.755,1.755,0,0,0,4,8.875v8.75a1.755,1.755,0,0,0,1.75,1.75h10.5A1.755,1.755,0,0,0,18,17.625V8.875A1.755,1.755,0,0,0,16.25,7.125ZM8.375,5.375a2.625,2.625,0,0,1,5.25,0v1.75H8.375Zm7.875,12.25H5.75V8.875h10.5ZM11,15a1.75,1.75,0,1,0-1.75-1.75A1.755,1.755,0,0,0,11,15Z" transform="translate(-0.5 -0.125)"/></svg>
+           </span>
+           <button type="submit" id="bidBtn">
+               $8,500
+           </button>
+           <span class="flagButton">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 10.5202V21H1.21154H2.42308V16.9693V12.9386H6.78462C11.0654 12.9386 11.1865 12.9789 11.6308 13.9463C12.075 14.9136 12.1962 14.9539 16.5577 14.9539H21V8.70633V2.45873H17.2038C13.4077 2.45873 13.3673 2.45873 12.8423 1.33013L12.3173 0.241843L6.13846 0.120922L0 4.5076e-07V10.5202ZM11.6308 3.46641C12.075 4.43378 12.2769 4.47409 15.3462 4.47409H18.5769V8.70633V12.9386H15.9115C13.3673 12.9386 13.2865 12.8983 12.8827 11.7294L12.4385 10.5202H7.43077H2.42308V6.48944V2.45873H6.78462C11.0654 2.45873 11.1865 2.49904 11.6308 3.46641Z" fill="#D43764"/>
+                </svg>
+           </span>
+        </div>
+        <div class="bidCurrentText">Vicky placed a bid</div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <svg class="close" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d)"><path d="M20.0605 4.06055L7.06055 17.0605" stroke="#6070DE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><g filter="url(#filter1_d)"><path d="M7.06055 4.06055L20.0605 17.0605" stroke="#6070DE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><filter id="filter0_d" x="0.310547" y="0.310547" width="26.5" height="26.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="3"/><feGaussianBlur stdDeviation="3"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.161 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/></filter><filter id="filter1_d" x="0.310547" y="0.310547" width="26.5" height="26.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="3"/><feGaussianBlur stdDeviation="3"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.161 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/></filter></defs></svg>
+                
+          <div class="heading">
+            <div>Confirmation</div>
+          </div>
+          <div class="bidFormula">
+              <span id="bidFormula"></span>
+              <span id="bidFormulaClose" class="bidFormulaClose">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 1.22217L1 9.22217" stroke="#6070DE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 1.22217L9 9.22217" stroke="#6070DE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+              </span>
+          </div>
+          
+          <div id="bidValue" class="bidValue">
+          </div>
+          <div class="gridValues">
+              <div class="gridItem">
+                <span class="bidItem">-$100</span>
+              </div>
+              <div class="gridItem">
+                <span class="bidItem">-$75</span>
+              </div>
+              <div class="gridItem">
+                <span class="bidItem">-$50</span>
+              </div>
+              <div class="gridItem">
+                <span class="bidItem">-$25</span>
+              </div>
+              <div class="gridItem">
+                <span class="bidItem">-$10</span>
+              </div>
+              <div class="gridItem">
+                <span class="bidItem">-$5</span>
+              </div>
+          </div>
+          <button type="submit">
+            Place Bid
+          </button>
+          <div class="noticeSection">
+              <span style="color: #7F8DE8">Average total amount</span>
+              <span>$4000</span>
+          </div>
+        </div>
+      
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
